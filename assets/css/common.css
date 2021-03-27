@@ -1,0 +1,55 @@
+.fsd-css-transform-yes {
+    -webkit-transition-duration: var(--fsd-tfx-transition-duration, 0.2s);
+    transition-duration: var(--fsd-tfx-transition-duration, 0.2s);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transform: translate(
+        var(--fsd-tfx-translate-x, 0),
+        var(--fsd-tfx-translate-y, 0)
+      )
+      scale(var(--fsd-tfx-scale-x, 1), var(--fsd-tfx-scale-y, 1))
+      skew(var(--fsd-tfx-skew-x, 0), var(--fsd-tfx-skew-y, 0))
+      rotateX(var(--fsd-tfx-rotate-x, 0)) rotateY(var(--fsd-tfx-rotate-y, 0))
+      rotateZ(var(--fsd-tfx-rotate-z, 0));
+    transform: translate(
+        var(--fsd-tfx-translate-x, 0),
+        var(--fsd-tfx-translate-y, 0)
+      )
+      scale(var(--fsd-tfx-scale-x, 1), var(--fsd-tfx-scale-y, 1))
+      skew(var(--fsd-tfx-skew-x, 0), var(--fsd-tfx-skew-y, 0))
+      rotateX(var(--fsd-tfx-rotate-x, 0)) rotateY(var(--fsd-tfx-rotate-y, 0))
+      rotateZ(var(--fsd-tfx-rotate-z, 0));
+  }
+  .fsd-css-transform-yes:hover {
+    -webkit-transform: translate(
+        var(--fsd-tfx-translate-x-hover, var(--fsd-tfx-translate-x, 0)),
+        var(--fsd-tfx-translate-y-hover, var(--fsd-tfx-translate-y, 0))
+      )
+      scale(
+        var(--fsd-tfx-scale-x-hover, var(--fsd-tfx-scale-x, 1)),
+        var(--fsd-tfx-scale-y-hover, var(--fsd-tfx-scale-y, 1))
+      )
+      skew(
+        var(--fsd-tfx-skew-x-hover, var(--fsd-tfx-skew-x, 0)),
+        var(--fsd-tfx-skew-y-hover, var(--fsd-tfx-skew-y, 0))
+      )
+      rotateX(var(--fsd-tfx-rotate-x-hover, var(--fsd-tfx-rotate-x, 0)))
+      rotateY(var(--fsd-tfx-rotate-y-hover, var(--fsd-tfx-rotate-y, 0)))
+      rotateZ(var(--fsd-tfx-rotate-z-hover, var(--fsd-tfx-rotate-z, 0)));
+    transform: translate(
+        var(--fsd-tfx-translate-x-hover, var(--fsd-tfx-translate-x, 0)),
+        var(--fsd-tfx-translate-y-hover, var(--fsd-tfx-translate-y, 0))
+      )
+      scale(
+        var(--fsd-tfx-scale-x-hover, var(--fsd-tfx-scale-x, 1)),
+        var(--fsd-tfx-scale-y-hover, var(--fsd-tfx-scale-y, 1))
+      )
+      skew(
+        var(--fsd-tfx-skew-x-hover, var(--fsd-tfx-skew-x, 0)),
+        var(--fsd-tfx-skew-y-hover, var(--fsd-tfx-skew-y, 0))
+      )
+      rotateX(var(--fsd-tfx-rotate-x-hover, var(--fsd-tfx-rotate-x, 0)))
+      rotateY(var(--fsd-tfx-rotate-y-hover, var(--fsd-tfx-rotate-y, 0)))
+      rotateZ(var(--fsd-tfx-rotate-z-hover, var(--fsd-tfx-rotate-z, 0)));
+  }
